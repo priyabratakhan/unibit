@@ -13,12 +13,12 @@ console.log(bag);
 
 
 
-// let a = []
-// for(let i=0;i<bag.length;i++){
-//     for(let j=0;j<2;j++){
-//         a.push
-//     }
-// }
-// console.log(a)
-// let b = a.sort((a, b) => a - b);
-// console.log(b);
+let a = []
+for(let i=0;i<bag.length;i++){
+    for(let j=0;j<2;j++){
+        a.push(bag[i][j])
+    }
+}
+
+let b = a.sort((a, b) => a - b);
+console.log(b);
